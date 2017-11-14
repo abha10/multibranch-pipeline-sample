@@ -5,7 +5,7 @@ node {
   try {
     stage('Build') {
       sh 'git clean -fdx'
-      withMaven(maven: 'Maven 3') {
+      withMaven(maven: 'maven-3') {
         sh 'mvn clean verify'
       }
     }
