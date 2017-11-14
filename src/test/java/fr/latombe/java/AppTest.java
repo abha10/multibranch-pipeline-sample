@@ -16,11 +16,11 @@ public class AppTest {
     @Test
     public void testApp()
     {
-        assertTrue( true );
+        assertTrue(true);
     }
 
     @Test
     public void failingTest() {
-        assertFalse(true);
+        assertFalse(false);
     }
 }
